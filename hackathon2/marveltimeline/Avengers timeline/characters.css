@@ -1,0 +1,275 @@
+body{
+    background-color: #000;
+}
+
+
+
+header a{
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+   background:#000;
+}
+
+
+.buttn{
+    padding-right: 100px;
+}
+h2{
+    color: #f4f4f4;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+header ul li:hover{
+    background: linear-gradient(#cc66ff,#f4f4f4);
+    color:#000;
+}
+
+header ul li:nth-child(1){
+    border-top: 4px solid #cc33ff;
+}
+
+header ul li:nth-child(2){
+    border-top: 4px solid #cc33ff;
+}
+
+header ul li:nth-child(3){
+    border-top: 4px solid #cc33ff;
+}
+
+header ul li:nth-child(4){
+    border-top: 4px solid #cc33ff;
+}
+
+
+
+
+#container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+
+@media only screen and (min-width:500px) {
+    #container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width:850px) {
+   #container{
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+}
+
+.card{
+    background: white;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.card .article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card:hover{
+    top: 6px;
+    box-shadow: 0 6px 8px rgb(60, 60, 60)
+    
+}
+.card:hover{
+    -webkit-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+#num1{
+    background-image: url(images/iron\ man.jpg);
+    background-size: cover;
+}
+.n1{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num2{
+    background-image: url(images/CAPTAIN\ AMERICA.jpg);
+    background-size: cover;
+}
+.n2{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num3{
+    background-image: url(images/thorr.jpg);
+    background-size: cover;
+}
+.n3{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num4{
+    background-image: url(images/spiderman.jpg);
+    background-size: cover;
+}
+.n4{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num5{
+    background-image: url(images/doctorstrange.jpg);
+    background-size: cover;
+}
+.n5{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num6{
+    background-image: url(images/blackpanther.jpg);
+    background-size: cover;
+}
+.n6{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num7{
+    background-image: url(images/hulk.jpg);
+    background-size: cover;
+}
+.n7{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num8{
+    background-image: url(images/blackwidow.jpg);
+    background-size: cover;
+}
+.n8{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num9{
+    background-image: url(images/hawkeye.jpg);
+    background-size: cover;
+}
+.n9{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num10{
+    background-image: url(images/scarletwitch.jpg);
+    background-size: cover;
+}
+.n10{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num11{
+    background-image: url(images/vision.jpg);
+    background-size: cover;
+}
+.n11{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num12{
+    background-image: url(images/falcon.jpg);
+    background-size: cover;
+}
+.n12{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num13{
+    background-image: url(images/antman.jpg);
+    background-size: cover;
+}
+.n13{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num14{
+    background-image: url(images/wintersoldier.jpg);
+    background-size: cover;
+}
+.n14{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num15{
+    background-image: url(images/starlord.jpg);
+    background-size: cover;
+}
+.n15{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}

@@ -1,0 +1,413 @@
+body{
+    background-color: #000;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+   background:#000;
+}
+
+h2{
+    color: #f4f4f4;
+}
+h4{
+    color: #f4f4f4;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+
+header ul li:hover{
+    background: linear-gradient(#cc66ff,#f4f4f4);
+    color:#000;
+}
+
+header ul li:nth-child(1){
+    border-top: 4px solid #cc33ff;
+}
+
+header ul li:nth-child(2){
+    border-top: 4px solid #cc33ff;
+}
+
+header ul li:nth-child(3){
+    border-top: 4px solid #cc33ff;
+}
+
+header ul li:nth-child(4){
+    border-top: 4px solid #cc33ff;
+}
+
+#container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 25px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+.charac{
+    padding-top: 7.5px;
+}
+
+@media only screen and (min-width:500px) {
+    #container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (min-width:850px) {
+   #container{
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+}
+
+.card{
+    background: white;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.card .article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card:hover{
+    top: 5px;
+    box-shadow: 0 6px 8px rgb(60, 60, 60)
+    
+}
+.card:hover{
+    -webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+#num1{
+    background-image: url(image/captainamerica.jpg);
+    background-size: cover;
+}
+.n1{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num2{
+    background-image: url(image/captainmarvel.jpg);
+    background-size: cover;
+}
+.n2{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num3{
+    background-image: url(image/ironman.jpg);
+    background-size: cover;
+}
+.n3{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num4{
+    background-image: url(image/ironman2.jpg);
+    background-size: cover;
+}
+.n4{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num5{
+    background-image: url(image/hulk.jpg);
+    background-size: cover;
+}
+.n5{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num6{
+    background-image: url(image/thor.jpg);
+    background-size: cover;
+}
+.n6{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num7{
+    background-image: url(image/theavengers.jpg);
+    background-size: cover;
+}
+.n7{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num8{
+    background-image: url(image/thordarkworld.jpg);
+    background-size: cover;
+}
+.n8{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num9{
+    background-image: url(image/ironman3.jpg);
+    background-size: cover;
+}
+.n9{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num10{
+    background-image: url(image/captainamericawintersoldier.jpg);
+    background-size: cover;
+}
+.n10{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num11{
+    background-image: url(image/guardiansofthegalaxy.jpg);
+    background-size: cover;
+}
+.n11{
+    color: #ffffff;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num12{
+    background-image: url(image/guardiansofthegalaxy2.jpg);
+    background-size: cover;
+}
+.n12{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num13{
+    background-image: url(image/avengersageofultron.jpg);
+    background-size: cover;
+}
+.n13{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num14{
+    background-image: url(image/antman.jpg);
+    background-size: cover;
+}
+.n14{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num15{
+    background-image: url(image/captainamericacivilwar.jpg);
+    background-size: cover;
+}
+.n15{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num16{
+    background-image: url(image/blackwidow.jpg);
+    background-size: cover;
+}
+.n16{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num17{
+    background-image: url(image/spidermanhomecoming.jpg);
+    background-size: cover;
+}
+.n17{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num18{
+    background-image: url(image/blackpanther.jpg);
+    background-size: cover;
+}
+.n18{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num19{
+    background-image: url(image/doctorstrange.jpg);
+    background-size: cover;
+}
+.n19{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num20{
+    background-image: url(image/thorragnarok.jpg);
+    background-size: cover;
+}
+.n20{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num21{
+    background-image: url(image/antmanandthewasp.jpg);
+    background-size: cover;
+}
+.n21{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num22{
+    background-image: url(image/avengersinfinitywar.jpg);
+    background-size: cover;
+}
+.n22{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num23{
+    background-image: url(image/avengersendgame.jpg);
+    background-size: cover;
+}
+.n23{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num24{
+    background-image: url(image/spidermanfarfromhome.jpg);
+    background-size: cover;
+}
+.n24{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num25{
+    background-image: url(image/shangchi.jpg);
+    background-size: cover;
+}
+.n25{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num26{
+    background-image: url(image/eternals.jpg);
+    background-size: cover;
+}
+.n26{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num27{
+    background-image: url(image/spidermannowayhome.jpg);
+    background-size: cover;
+}
+.n27{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+#num28{
+    background-image: url(image/doctorstrangeinthemultiverseofmadness.jpg);
+    background-size: cover;
+}
+.n28{
+    color: #fffafa;
+    text-decoration: wavy;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    text-align: center;
+}
