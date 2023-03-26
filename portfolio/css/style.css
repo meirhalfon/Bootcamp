@@ -1,0 +1,503 @@
+* { box-sizing: border-box; }
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #2c96e8; 
+  color: #000;
+}
+.anchor {
+  padding-top: 65px;
+}
+.anchor h1 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  margin: 15px 0 5px 0;
+}
+h2 {
+  text-align: center;
+  color: white; 
+  margin: 5px 0 5px 0;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+a:link { 
+  color: black; 
+}
+a:visited { 
+  color: purple; 
+}
+/**** Nav Bar ****/
+.navbar {
+  background-color: #333;
+  border-color: #333;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 10px 0 10px;
+  margin-bottom: 0; 
+}
+.projectName a {
+  position: absolute;
+  top:10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+/**** Banner ****/
+#banner {
+  background-image: url("../img/background-intro.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 550px;
+  position: relative;
+}
+.main-title {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 25%;
+  padding: 2px 5px 15px 5px;
+  background-color: rgba(255,255,255,0.4);
+}
+#banner h1 { 
+  color: #000;
+  text-align: center;
+  opacity: 0.8;
+}
+#banner p {
+  text-align: center;
+  color: #000;
+  opacity: 0.8;
+}
+.btn {
+  margin: 5px;
+  opacity: 0.8;
+}
+#item {
+  color: blue;
+}
+/**** Concept ****/
+.concept-title {
+  background-color: #000;
+  width: 80%;
+  display: block;
+  margin: 10px auto 5px auto;
+  padding: 10px 0 10px 0;
+  border-radius: 25px;
+}
+#concept-me {
+  display: block;
+  margin: 0 auto 0 auto;
+  padding: 0 auto 0 auto;
+  width: 75%;
+}
+#concept-me h4 {
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+}
+#concept-me p {
+  color: white;
+  text-align: center;
+  width: 75%;
+  display: block;
+  margin: 10px auto 0 auto;
+  max-width: 100%;
+}
+#field-1 {
+  background-color: #ccc;
+  border-radius: 25px;
+}
+#field-2 {
+  background-color: #ccc;
+  border-radius: 25px;
+}
+/**** Hero ****/
+#hero {
+  margin: 20px 0 20px 0;
+  padding: 0;
+}
+/**** Portfolio ****/
+#portfolio {
+  margin: 45px 0 20px 0;
+}
+.portfolio-title {
+  background-color: #000;
+  width: 80%;
+  display: block;
+  margin: 0 auto 10px auto;
+  padding: 10px 0 10px 0;
+  border-radius: 25px;
+}
+#portfolio-me h4 {
+  padding: 20px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  }
+#portfolio-me p {
+  color: white;
+  width: 75%;
+  display: block;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+}
+#portfolio-work img {
+  border-radius: 25px;
+  margin: 15px 0 5px 0;
+}
+#field-3 {
+  background-color: #ccc;
+  border-radius: 25px;
+}
+#field-4 {
+  background-color: #ccc;
+  border-radius: 25px;
+}
+#field-5 {
+  background-color: #ccc;
+  border-radius: 25px;
+}
+.work-img {
+  position: relative;
+  width:100%;
+  height:100%;
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 25px;
+}
+.work-info {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  color:#000;
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform:uppercase;
+  font-size: 1.5em;
+  letter-spacing:0.2em;
+  display: none;
+}
+.proj-title {
+  position: relative;
+  font-size: 0.6em;
+  letter-spacing:0.2em;
+  font-weight:100;
+}
+/**** About ****/
+#about {
+  background-image: url("../img/background-about.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 50px;
+}
+#about-me h4 {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+#about-me p {
+  color: white;
+  width: 85%;
+  display: block;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+}
+#about-work img {
+  width:85%;
+  height:100%;
+  display: block;
+  margin: 0 auto 10px auto;
+  border-radius: 25px;
+}
+.info-about {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  color: #ccc;
+  background-color: rgba(255,255,255,0.5);
+  padding: 15px;
+  border-radius: 25px;
+  font-family:  'Times New Roman', Times, serif;
+  text-transform:uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  display: none;
+}
+/**** Contact ****/
+#contact {
+  background-image: url("../img/iphone.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  height: 630px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#contact-title h1 {
+  padding: 15px;
+  margin: 45px auto 20px auto;
+}
+#contact-map h1 {
+  text-align: right;
+  padding: 15px;
+  margin: 75px auto 20px auto;
+}
+#contact-title p {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.form-group {
+  width: 80%;
+  margin: 15px auto 0 auto;
+}
+.message-box {
+  color:#555;
+  width: 100%;
+  padding: 6px 12px;
+  border-color: 1px solid #ccc;
+  border-radius: 4px;
+}
+.btn-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#map {
+  opacity: 0.8;
+  display: block;
+  max-height: 100%;
+  height: 350px;
+  margin: 25px auto 25px auto;
+  border-color: 1px solid #ccc;
+  border-radius: 4px; 
+}
+.video {
+  display: block; 
+  max-width: 90%;
+  margin: 50px auto 25px auto;
+}
+/**** My CV modal ****/
+.learn-more {
+  text-align: left;
+  float: left;
+  margin-left: 11%;
+}
+.modal-button {
+  float: right;
+  padding: 15px;
+  margin-right: 10%;
+}
+.modal-header {
+  color:black;
+}
+.panel-body p {
+  color:black;
+}
+#modalembed {
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+/**** faq ****/
+#faq-title {
+  margin-bottom: 25px;
+}
+#faq-accordion {
+  color: #333;
+  width: 80%;
+  padding: 10px;
+  margin: 10px auto 50px auto
+}
+/**** Footer ****/
+#footer {
+  background: #6aa28f;
+  opacity: 0.8;
+}
+#social-bar {
+  width: 90%;
+  margin: 20px 50px 20px 50px;
+}
+.twitter-follow-button {
+  margin: 5px;
+}
+.fb-like {
+  margin: 5px;
+}
+#quick-links {
+  width: 90%;
+  margin: 0 50px 15px 50px;
+}
+#quick-links a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.back-to-top {
+  float:left;
+}
+.back-to-contact {
+  float:right;
+}
+.twitter-follow-button {
+  float:left;
+}
+#navbar-footer {
+  width: 90%;
+  margin: 0 50px 10px 50px;
+}
+#navbar-footer ul {
+  -webkit-padding-start: 0;
+}
+#navbar-footer li {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-right: 10px;
+}
+#navbar-footer a {
+  color: #fff;
+  padding-right: 0;
+}
+#copy-right {
+  float: right;
+  color: #fff;
+}
+/**** Typography ****/
+.projectName a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+.navbar li {
+  font-family: 'Lato', 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.btn {
+  font-family: 'Times New Roman', Times, serif;
+}
+#banner h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5em;
+  font-weight: 400;
+}
+#banner p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  font-weight: 200;
+} 
+.anchor h1 {
+  font-family: 'Times New Roman', Times, serif;
+  
+  font-size: 3em;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+h2 {
+  font-family:  'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+#concept h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5em;
+  font-weight: 100;
+}
+#concept p {
+  font-family:  'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  font-weight: 100; 
+}
+
+#portfolio-me h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5em;
+  font-weight: 100;
+  }
+#portfolio-me p {
+  font-family:  'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+#about-me h4 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2em;
+  font-weight: 100;
+}
+#about-me p {
+  font-family:  'Times New Roman', Times, serif;
+  font-size: 1.1em;
+  font-weight: 100;
+}
+#contact p {
+  font-family:  'Times New Roman', Times, serif;
+  font-size: 1em;
+  font-weight: 100;
+}
+#contact-map h1 {
+  font-size: 2em;
+  font-weight: 100;
+}
+.learn-more {
+  font-family:  'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+.panel-heading {
+  font-family: 'Lato', 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+.panel-body {
+  font-family: Cambri'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+#footer {
+  font-family: 'Lato', 'Times New Roman', Times, serif;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+/**** Media queries ****/
+/* Landscape phones and down */
+@media all and (min-width: 960px) {
+  body{
+    font-size: 16px;
+    }
+  }
+@media all and (max-width: 959px) and (min-width: 600px) {
+  body {
+    font-size: 14px;
+    }
+  }
+@media  all and (max-width: 599px) and (min-width: 319px) {
+  body {
+    font-size: 12px;
+    }
+  #navbar-footer li {
+    display: none;
+  }
+  .work-info {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+  } }
